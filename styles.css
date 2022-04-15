@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+/* Navbar-Section */
+
+.navbar-light {
+    margin: 1% 10% 1% 8%;
+}
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+.j-navbar {
+    
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.n-link {
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10%;
+}
+
+/* Head-section */
+
+span {
+    color: #5463FF;
+}
+
+
+.intro-text {
+    padding-top: 8%;
+}
+.intro-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.7rem;
+    font-weight: 600;
+    padding-left: 20%;
+}
+.webdev-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-left: 20%;
+}
+
+.ct-btn {
+    margin-top: 1rem;
+    border-radius: 50%;
+    margin-left: 20%;
+}
+.intro-img {
+    padding-top: 4.5%;
+}
+.profile-img {
+    height: 60%;
+}
+
+
+/* About-section */
+
+.about-section {
+    align-items: center;
+
+}
+
+.about-img {
+    height: 30%; 
+    padding-top: 8%;  
+}
+
+.abt-text {
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.abt-description {
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.img-abt-section {
+    display: flexbox;
+    justify-content: left;
+    padding-top: 8%;
+}
+
+.about-image {
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+
+.container-fluid{
+    padding: 10% 30%;
+  }
+
+.card {
+    align-items: center;
+}
+
+/* Skills Section */
+
+.skill-title {
+    color: #5463FF;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#features {
+    position: relative;
+    text-align: center;
+    padding: 4.5%;
+  }
+  
+  
+  .html {
+    margin-bottom: 1.5625rem;
+    width: 20%
+  }
+  
+  .css {
+    margin-bottom: 1.5625rem;
+    width: 20%
+  }
+  
+  .wordpress {
+    margin-bottom: 1.5625rem;
+    width: 20%
+  }
+
+  .skill-text {
+      margin-top: 0.3rem;
+      font-family: 'Poppins' sans-serif;
+  }
+
+  .skill-subtext {
+      margin-top: 0.3rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      margin-bottom: 2rem;
+  }
+
+   /* Footer Section */
+
+
+   .footer-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #333;
+}
+
+
+ footer {
+     background-color: #000000;
+     position: relative;
+     width: 100%;
+     min-height: 100px;
+     padding: 20px 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ footer .social_icon, footer .menu {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 0;
+     flex-wrap: wrap;
+ }
+
+ footer .social_icon li, footer .menu li {
+     list-style: none;
+ }
+
+ footer .social_icon li a {
+     font-size: 2em;
+     color: #fff;
+     margin: 0 10px;
+     display: inline-block;
+     transition: 0.5s;
+ }
+
+ footer .social_icon li a:hover {
+     transform: translateY(-10px);
+ }
+ .fb-icon:hover {
+   color: #1572A1;
+ }
+
+ .tw-icon:hover {
+   color: #00B4D8;
+ }
+
+ .snap-icon:hover {
+   color: #F1D00A;
+ }
+
+ .insta-icon:hover {
+   color: #E60965;
+ }
+
+ footer .menu li a {
+   font-size: 1.5em;
+   color: #fff;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+   text-decoration: none;
+   opacity: 0.75;
+}
+
+footer .menu li a:hover {
+   opacity: 1;
+   color: #FF1700;
+
+}
+
+footer p {
+   color: #fff;
+   text-align: center;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   font-size: 1.1em;
+}
